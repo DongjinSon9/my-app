@@ -6,6 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import CommentList from './chapter05/CommentList';
 import BoardList from './chapter05/BoardList';
 import NotificationList from './chapter06/NotificationList';
+import Counter from './chapter07/Counter';
+import Info from './chapter07/Info';
+import Average from './chapter07/Average';
+import Accommodate from './chapter07/Accommodate';
+import Say from './chapter08/Say';
+import Toggle from './chapter08/Toggle';
+import EventPractice from './chapter08/EventPractice';
+import Greeting from './chapter09/Greeting';
+import LoginControl from './chapter09/LoginControl';
+import LandingPage from './chapter09/LandingPage';
+import NumberList from './chapter10/NumberList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +24,18 @@ root.render(
     {/* <App /> */}
     {/* <CommentList /> */}
     {/* <BoardList /> */}
-    <NotificationList />
+    {/* <NotificationList /> */}
+    {/* <Counter /> */}
+    {/* <Info /> */}
+    {/* <Average /> */}
+    {/* <Accommodate /> */}
+    {/* <Say /> */}
+    {/* <Toggle /> */}
+    {/* <EventPractice /> */}
+    {/* <Greeting /> */}
+    {/* <LoginControl /> */}
+    {/* <LandingPage /> */}
+    <NumberList />
   </React.StrictMode>
 );
 
