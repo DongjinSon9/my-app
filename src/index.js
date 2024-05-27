@@ -17,6 +17,8 @@ import Greeting from './chapter09/Greeting';
 import LoginControl from './chapter09/LoginControl';
 import LandingPage from './chapter09/LandingPage';
 import NumberList from './chapter10/NumberList';
+import StudentList from './chapter10/StudentList';
+import InterationSample from './chapter10/InterationSample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +37,9 @@ root.render(
     {/* <Greeting /> */}
     {/* <LoginControl /> */}
     {/* <LandingPage /> */}
-    <NumberList />
+    {/* <NumberList /> */}
+    {/* <StudentList /> */}
+    <InterationSample />
   </React.StrictMode>
 );
 
